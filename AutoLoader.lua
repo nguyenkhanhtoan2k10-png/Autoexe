@@ -37,10 +37,11 @@ local function update()
     end
 end
 
--- ===== QUEUE SELF (QUAN TRỌNG) =====
+-- ===== QUEUE SELF (FIX ĐÚNG) =====
 local function queueSelf()
     if queue_on_teleport then
         queue_on_teleport([[
+            getgenv().AUTO_ENABLED = true
             loadstring(game:HttpGet("https://raw.githubusercontent.com/nguyenkhanhtoan2k10-png/Autoexe/refs/heads/main/AutoLoader.lua"))()
         ]])
     end
