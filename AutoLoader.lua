@@ -41,7 +41,7 @@ end
 local function queueSelf()
     if queue_on_teleport then
         queue_on_teleport([[
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/THIS_LOADER.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/nguyenkhanhtoan2k10-png/Autoexe/refs/heads/main/AutoLoader.lua"))()
         ]])
     end
 end
