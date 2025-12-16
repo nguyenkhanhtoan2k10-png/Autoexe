@@ -47,10 +47,6 @@ local function queueSelf()
     end
 end
 
--- ⚠️ THAY LINK NÀY:
--- 👉 Upload CHÍNH SCRIPT NÀY lên GitHub
--- 👉 Rồi thay THIS_LOADER.lua bằng link đó
-
 btn.MouseButton1Click:Connect(function()
     getgenv().AUTO_ENABLED = not getgenv().AUTO_ENABLED
     update()
